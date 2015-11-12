@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>04 Practise</title>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ejemplo 1 de Bootstrap</title>
+
     <!-- Bootstrap -->
     <link href="Styles/bootstrap.min.css" rel="stylesheet">
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="Scripts/jquery-2.1.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -16,31 +19,24 @@
 			body {
 				padding-top: 20px;
 			}
-			div {
-			margin-bottom: 150px;
-			margin-left: 150px;
-			margin-right: 150px;
-			}
-			.jumbotron{
-			text-align: center;
-			}
 			button{
 			margin: 5px;
 			}
 		</style>
 </head>
-<body><div id="container">
-<div class="jumbotron">
-<h1>Enlaces Sergio</h1>
-</div>
-<div id="botones">
-	<a href="spy.php?origen=index.html&amp;destino=http://www.elmundo.es" target="_blank" class="btn btn-primary btn-block">EL MUNDO</a>
-	<a href="spy.php?origen=index.html&amp;destino=http://www.elpais.com" target="_blank" class="btn btn-primary btn-block">EL PAIS</a>
-	<a href="spy.php?origen=index.html&amp;destino=http://www.abc.es" target="_blank" class="btn btn-primary btn-block">EL ABC</a>
-	<a href="spy.php?origen=index.html&amp;destino=http://www.diariodeibiza.es" target="_blank" class="btn btn-primary btn-block">EL DIARIO</a>
-	<a href="spy.php?origen=index.html&amp;destino=http://www.marca.com" target="_blank" class="btn btn-primary btn-block">EL MARCA</a>
-	<a href="estadisticas.php" target="_blank" class="btn btn-primary btn-block">Estadisticas</a>
-</div>
-</div>
-</body>
+	<body>
+		<div class="container">
+			<div class="jumbotron" style="text-align:center">		
+				<h1>Enlaces</h1>		
+			</div>
+			<div id="botones">
+				<a href="spy.php?origen=index.html&destino=http://www.elmundo.es" target="_blank" ><button type="button" class="btn btn-info btn-block">EL MUNDO</button></a>
+				<a href="spy.php?origen=index.html&destino=http://www.elpais.com" target="_blank" ><button type="button" class="btn btn-info btn-block">EL PAIS</button></a>
+				<a href="spy.php?origen=index.html&destino=http://www.abc.es" target="_blank" ><button type="button" class="btn btn-info btn-block">EL ABC</button></a>
+				<a href="spy.php?origen=index.html&destino=http://www.diariodeibiza.es" target="_blank"  ><button type="button" class="btn btn-info btn-block">EL DIARIO</button></a>
+				<a href="spy.php?origen=index.html&destino=http://www.marca.com" target="_blank"  ><button type="button" class="btn btn-info btn-block">EL MARCA</button></a>
+				<a href="estadisticas.php" target="_blank" ><button type="button" class="btn btn-info btn-block">Estadisticas</button></a>
+			</div>
+		</div>
+	</body>
 </html>
